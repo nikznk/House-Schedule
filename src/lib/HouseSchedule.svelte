@@ -264,7 +264,7 @@
   }
 
   .test{
-    background-color: #2d3748;
+    background-color: red;
   }
   
   /* Smooth transitions */
