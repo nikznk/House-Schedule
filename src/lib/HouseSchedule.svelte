@@ -117,8 +117,7 @@
     note: index === 0 ? 'Current Week' : (index === cleaningRotation.length ? 'Cycle Repeats' : '')
   }));
 
-  // Bins rotation: B → F → C → E → A
-  const binsRotation = ['B', 'F', 'C', 'E', 'A'];
+const binsRotation = ['G', 'C', 'A', 'F', 'E', 'B', 'H', 'C'];
   
   const binSchedule = binDates.map((week, index) => ({
     week,
