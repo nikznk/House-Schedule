@@ -262,6 +262,10 @@
         outline-color: #3182ce; /* focus:ring-blue-500 */
     }
   }
+
+  .test{
+    background-color: #2d3748;
+  }
   
   /* Smooth transitions */
   button {
