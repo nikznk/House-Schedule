@@ -5,7 +5,11 @@ export default defineConfig({
   plugins: [svelte()],
   base: '/house-schedule/',
   build: {
-    outDir: 'dist',
-    assetsDir: 'assets'
+    rollupOptions: {
+      external: [],
+      output: {
+        manualChunks: undefined
+      }
+    }
   }
 })
